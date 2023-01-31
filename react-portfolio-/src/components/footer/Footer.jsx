@@ -25,7 +25,9 @@ const Footer = () => {
         <a href="https://linkedin.com/in/victor-pereira-210636257" target="blank" rel="noopener noreferrer"><BsLinkedin/></a>
       </div>
 
-      <div className="footer__copyright"></div>
+      <div className="footer__copyright">
+      <small>&copy;2023</small>
+      </div>
       </footer>
        )
     }
