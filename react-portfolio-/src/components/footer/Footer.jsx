@@ -3,17 +3,17 @@ import React from 'react'
 
 //Import
 import './footer.css'
-import {FaGithub} from 'react-icons/fa'
-import {BsLinkedin} from 'react-icons/bs'
+import { FaGithub } from 'react-icons/fa'
+import { BsLinkedin } from 'react-icons/bs'
 
 
 const Footer = () => {
   return (
     <footer>
-      <a href="/" className='footer__logo'>STELLA LING</a>
+      <a href="/" className='footer__logo'>Victor Pereira</a>
 
       <ul className='permalinks'>
-        <li><a href="/">Home</a></li>
+        <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Skills</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
