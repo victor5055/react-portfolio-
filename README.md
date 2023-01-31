@@ -62,7 +62,7 @@ none
 
 ## Installation
 ###### [Back to Table of Contents](#Table-of-Contents)
-
+This portfolio application requires the installation of node.js and the node package manager(npm) which is a software manager and installer which places the modules so that the node project can utilize it, and also, it manages dependency conflicts intelligently and initialized using **npm init**". The package.json will be generated and will contains all the packages of the application in which the user have inputted during the npm initialization.
 
 
 ## Overview: What Was Accomplished!
