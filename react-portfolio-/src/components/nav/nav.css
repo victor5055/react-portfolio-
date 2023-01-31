@@ -17,11 +17,11 @@ nav {
   /*Home,AboutMe,Skills,Portfolio,Contact*/
   nav a {
     background: transparent;
-    padding: 0.1rem;
+    padding: 0.2rem;
     border-radius: 70%;
     display: flex;
     color: aqua;
-    font-size: 0.68rem;
+    font-size: 0.9rem;
   }
   
   nav a:hover {
