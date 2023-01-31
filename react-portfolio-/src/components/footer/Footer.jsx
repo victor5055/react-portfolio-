@@ -19,7 +19,7 @@ const Footer = () => {
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-
+{/* SOCIAL LINKS */}
       <div className="footer__socials">
         <a href="https://github.com/victor5055" target="_blank" rel="noopener noreferrer"><FaGithub/></a>
         <a href="https://linkedin.com/in/victor-pereira-210636257" target="blank" rel="noopener noreferrer"><BsLinkedin/></a>
