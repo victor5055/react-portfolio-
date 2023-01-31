@@ -6,7 +6,7 @@ import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.jpg'
-
+import IMG6 from '../../assets/portfolio6.jpg'
 import { FaGithub } from 'react-icons/fa'
 import { GrDeploy } from 'react-icons/gr'
 
@@ -47,10 +47,18 @@ demo: 'https://victor5055.github.io/My-Daily-Planner/'
   {
     id: 5,
     image: IMG5,
-    title: 'Multiple Choice Quiz Application',
+    title: '(Multiple Choice Quiz Application)',
     desc: 'This coding assessment is a combination of multiple-choice questions and interactive coding challenges.',
     github: 'https://github.com/victor5055/Coding-Mutiple-Choice-Quiz.git',
     demo: 'https://victor5055.github.io/Coding-Mutiple-Choice-Quiz/'
+  },
+  {
+    id: 6,
+    image: IMG6,
+    title: '(Tech-Blog)',
+    desc: 'This app utilizes many different files, database storage, and technologies to create a Tech blog. A user can view any blogs on the main page and click them to see the comments. Both the post and comments will show who posted them.If a user would like to create their own blog they can sign up to create an account or login to an existing one. Once logged in they now have access to a dashboard for posting blogs. They can also go to other blogs and comment on them leaving their name and a date.The user then can logout and end their session or a timeout exists on the session as well.',
+    github: 'https://github.com/victor5055/Tech-Blog.git',
+    demo: 'https://stark-caverns-54506.herokuapp.com/'
   },
 ]
 
