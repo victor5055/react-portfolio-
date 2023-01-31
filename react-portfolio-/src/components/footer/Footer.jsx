@@ -29,3 +29,5 @@ const Footer = () => {
       </footer>
        )
     }
+//Export Footer
+    export default Footer
