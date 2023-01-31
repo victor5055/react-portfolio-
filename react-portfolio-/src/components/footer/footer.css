@@ -43,13 +43,13 @@ footer {
   
   .footer__socials a:hover {
     background: transparent;
-    color: var(--color-bg);
+    color: aqua;
     border-color: var(--color-bg);
   }
   
   .footer__copyright {
     margin-bottom: 10rem;
-    color: var(--color-bg);
+    color: aqua;
   }
   
   /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
