@@ -62,7 +62,16 @@ none
 
 ## Installation
 ###### [Back to Table of Contents](#Table-of-Contents)
-This portfolio application requires the installation of node.js and the node package manager(npm) which is a software manager and installer which places the modules so that the node project can utilize it, and also, it manages dependency conflicts intelligently and initialized using **npm init**". The package.json will be generated and will contains all the packages of the application in which the user have inputted during the npm initialization.
+1. This portfolio application requires the installation of node.js and the node package manager(npm) which is a software manager and installer which places the modules so that the node project can utilize it, and also, it manages dependency conflicts intelligently and initialized using **npm init**". The package.json will be generated and will contains all the packages of the application in which the user have inputted during the npm initialization.
+
+2. This react application is created by entering at command prompt: 
+-npx create-react-app 20S-react-portfolio
+-npm install
+-npm start (run the apps in the development and http://localhost:3000 to view it in the browser)
+-npm install react-icons --save (for including the popular icons easily with react-icons which utilizes ES6 imports that allows inclusion of icons for this application)
+-https://iconify.design/ (for my popular icon sets used in skills)
+-npm install @emailjs/browser
+-npm run build (builds the app for production to the folder to correctly bundles React in production mode and optimizes the build for the best performance)
 
 
 ## Overview: What Was Accomplished!
