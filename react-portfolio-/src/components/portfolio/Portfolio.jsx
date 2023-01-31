@@ -5,6 +5,7 @@ import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
+import IMG5 from '../../assets/portfolio5.jpg'
 
 import { FaGithub } from 'react-icons/fa'
 import { GrDeploy } from 'react-icons/gr'
@@ -42,6 +43,14 @@ title: '(My-Daily-Planner)',
 desc:' A simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.',
 github: 'https://github.com/victor5055/My-Daily-Planner.git',
 demo: 'https://victor5055.github.io/My-Daily-Planner/'
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: 'Multiple Choice Quiz Application',
+    desc: 'This coding assessment is a combination of multiple-choice questions and interactive coding challenges.',
+    github: 'https://github.com/victor5055/Coding-Mutiple-Choice-Quiz.git',
+    demo: 'https://victor5055.github.io/Coding-Mutiple-Choice-Quiz/'
   },
 ]
 
