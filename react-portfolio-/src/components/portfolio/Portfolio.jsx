@@ -3,6 +3,10 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
+import IMG3 from '../../assets/portfolio3.jpg'
+
+import { FaGithub } from 'react-icons/fa'
+import { GrDeploy } from 'react-icons/gr'
 
 // MY PROJECTS.....
 const data = [
@@ -20,6 +24,13 @@ title: 'Group Project 1 Sip&Chow',
 github: 'https://github.com/victor5055/Sip-Chow.git',
 demo: 'https://victor5055.github.io/Sip-Chow/'
 },
+{
+id: 3,
+image: IMG3,
+title: 'Coding-Mutiple-Choice-Quiz',
+github: 'https://github.com/victor5055/Coding-Mutiple-Choice-Quiz.git',
+demo: 'https://victor5055.github.io/Coding-Mutiple-Choice-Quiz'
+  },
 ]
 
 const Portfolio = () => {
@@ -29,7 +40,7 @@ const Portfolio = () => {
   
         <div className="container portfolio__container">
           {
-            data.map(({ id, image, title, desc }) => {
+            data.map(({ id, image, title, desc, github, demo }) => {
               return (
                 <article key={id} className='portfolio__item'>
                   <div className="portfolio__item-image">
@@ -38,7 +49,8 @@ const Portfolio = () => {
                   <h3>{title}</h3>
                   <h4>{desc}</h4>
                   <div className="portfolio__item-cta">
-                   
+                  <a href={github} className='btn' target='_blank' rel="noopener noreferrer" ><FaGithub />Github</a>
+                  <a href={demo} className='btn btn-primary' target='_blank' rel="noopener noreferrer"><GrDeploy />Deployed Link</a>
                   </div>
                 </article>
               )
