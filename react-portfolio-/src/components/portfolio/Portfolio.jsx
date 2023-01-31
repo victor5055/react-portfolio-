@@ -1,17 +1,24 @@
 import React from 'react'
-import './portfolio.css'
 //Import
+import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
-
+import IMG2 from '../../assets/portfolio2.jpg'
 
 // MY PROJECTS.....
 const data = [
 {
-    id: 1,
+id: 1,
 image: IMG1,
-title: 'eMarket',
+title: 'Group Project 2 eMarket',
 github: 'https://github.com/victor5055/eMarket.git',
 demo: 'https://safe-harbor-99168.herokuapp.com/'
+},
+{
+id: 2,
+image: IMG2,
+title: 'Group Project 1 Sip&Chow',
+github: 'https://github.com/victor5055/Sip-Chow.git',
+demo: 'https://victor5055.github.io/Sip-Chow/'
 },
 ]
 
