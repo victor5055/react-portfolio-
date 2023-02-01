@@ -46,7 +46,6 @@ header {
     left: 50%;
     transform: translateX(-50%);
     margin-top: 10rem;
-    border-radius: 2rem 2rem 2 2;
     overflow: hidden;
     padding: 0rem 0rem 0rem 0rem;
   }
