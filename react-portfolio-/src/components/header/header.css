@@ -9,8 +9,16 @@ header {
     height: 100%;
     position: relative;
     font-size: 25px;
-  
   }
+
+  /* =============== CTA ============== */
+.cta {
+  margin-top: 2.0rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
   /*=========== Victors Picture =========*/
 .me {
     background: linear-gradient(var(--color-primary), transparent);
