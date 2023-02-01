@@ -61,3 +61,38 @@ header {
     font-size: 0.9rem;
     color: aqua;
   }
+
+  /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1024px) {
+    header {
+      height: 68vh;
+    }
+  }
+  
+  /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+  @media screen and (max-width: 600px) {
+    header {
+      height: 100vh;
+      
+      padding-top: 4rem;
+    }
+  
+    .header__socials,
+    .scroll__down {
+      display: none;
+    }
+  
+    
+    .me {
+      width: 94%;
+      max-width: 20rem;
+      margin-top: 2.5rem;
+      justify-content: center;
+    }
+  
+    
+    .cta {
+      margin-top: 1.7rem;
+      gap: 1rem;
+    }
+  }
