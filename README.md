@@ -76,13 +76,17 @@ none
 
 ## Overview: What Was Accomplished!
 ### Workflow [Back to Table of Contents](#Table-of-Contents)
-
+I have deployed a succesful single-page application
 
 
 
 ### Screenshots (Building this application)
 ###### [Back to Table of Contents](#Table-of-Contents)
-![](./)
+![](./react-portfolio-/src/assets/Pic.PNG)
+![](./react-portfolio-/src/assets/pic2.PNG)
+![](./react-portfolio-/src/assets/pic3.PNG)
+![](./react-portfolio-/src/assets/pic4.PNG)
+![](./react-portfolio-/src/assets/pic5.PNG)
 
     
 
