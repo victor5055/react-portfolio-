@@ -19,6 +19,7 @@ header {
   justify-content: center;
 }
 
+  
   /*=========== Victors Picture =========*/
 .me {
     background: linear-gradient(var(--color-primary), transparent);
