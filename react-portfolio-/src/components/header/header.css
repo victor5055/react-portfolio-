@@ -40,8 +40,8 @@ header {
   /*=========== Victors Picture =========*/
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 15rem;
-    height: 25rem;
+    width: 12rem;
+    height: 50rem;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
