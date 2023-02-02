@@ -42,10 +42,10 @@ header {
     background: linear-gradient(var(--color-primary), transparent);
     width: 15%;
     height: 60%;
-    position: absolute;
+    position:sticky;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 2rem;
+    margin-top: 8rem;
     overflow: hidden;
     padding: 0rem 0rem 0rem 0rem;
   }
