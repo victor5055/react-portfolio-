@@ -7,7 +7,7 @@ import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.jpg'
 import IMG6 from '../../assets/portfolio6.jpg'
-
+import IMG7 from '../../assets/portfolio7.jpg'
 import IMG8 from '../../assets/portfolio8.jpg'
 import { FaGithub } from 'react-icons/fa'
 import { GrDeploy } from 'react-icons/gr'
@@ -63,15 +63,15 @@ demo: 'https://victor5055.github.io/My-Daily-Planner/'
     demo: 'https://stark-caverns-54506.herokuapp.com/'
   },
   {
-    id: 6,
-    image: IMG6,
-    title: '(Tech-Blog)',
-    desc: 'This app utilizes many different files, database storage, and technologies to create a Tech blog. A user can view any blogs on the main page and click them to see the comments. Both the post and comments will show who posted them.If a user would like to create their own blog they can sign up to create an account or login to an existing one. Once logged in they now have access to a dashboard for posting blogs. They can also go to other blogs and comment on them leaving their name and a date.The user then can logout and end their session or a timeout exists on the session as well.',
-    github: 'https://github.com/victor5055/Tech-Blog.git',
-    demo: 'https://stark-caverns-54506.herokuapp.com/'
+    id: 7,
+    image: IMG7,
+    title: '(Book-Search-Engine)',
+    desc: 'AS AN avid reader I WANT to search for new books to read SO THAT I can keep a list of books to purchase.This application is a MERN stack application which is a group of four technologies, that is MongoDB Express.js ReactJS Node.js',
+    github: 'https://github.com/victor5055/Book-Search-Engine',
+    demo: 'https://shielded-badlands-28437.herokuapp.com/'
   },
   {
-    id: 6,
+    id: 8,
     image: IMG8,
     title: '(MERN-Sky-Camp)',
     desc: 'This project is to build an application encouraging the users to stay active, enjoy the fresh air and sunshine found on the top of the mountain. Camping is an excellent way to burn a ton of calories while doing some great activites and feeling healthier. The application will be created as a MERN stack single-page application in which the users will be able to browse through the different Camping packages and add the package or remove the package before checkout. Stripe payment platform will be used for the users to pay for the package. Contact Form will be used for the users to contact MERN Sky Camp Team in case of cancellation due to unforeseen circumstances or other enquiries.',
